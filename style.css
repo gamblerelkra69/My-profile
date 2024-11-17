@@ -1,0 +1,76 @@
+.menu i{
+	font-size:40px;
+}
+.tab{
+	width:300px;
+	height:100vh;
+	border:1px solid #e1e1e1;
+	position:fixed;
+	top:0;
+	left:-300px;
+	background-color:#15126c;
+	transition:0.5s;
+}
+.tab ul{
+	list-style-type:none;
+}
+.tab ul li{
+	margin-bottom:15px;
+}
+.tab ul li a{
+	color:#000;
+	text-decoration:none;
+	font-size:20px;
+}
+.tab .exit i{
+	font-size:40px;
+}
+.home, .about,.skills, .contact{
+	height:100vh;
+	width:100%;
+}
+*{
+	margin:0;
+	padding:0;
+}
+.menu{
+	position:fixed;
+	top:0;
+}
+html{
+	scroll-behavior:smooth;
+}
+h3{
+	margin-left:300px;
+	color:#fff;
+}
+.home{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcO2BbLGe8u3cZcPUMtcpBPbwRU1sTI_4TGw&s);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.about{
+	background-image: url(https://t4.ftcdn.net/jpg/05/13/69/37/360_F_513693756_IOqSDNxqbjEHwFcNHJ1NluKO6GnziG2B.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.home h1{
+	margin-left:350px;
+	color:#fff;
+}
+.project .info img{
+	width:100%;
+	height:350px;
+	object-fit:cover;
+}
+.project .info a{
+	color:#000;
+	text-decoration:none;
+}
+.skills{
+	background-color:#fff;
+}
+.contact img{
+	width:1000px;
+	height:1000px;
+}
